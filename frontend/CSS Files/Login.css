@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+}
+html {
+    overflow: hidden;
+}
+
+
+h1 {
+    font-size: xx-large !important;
+    text-align: center;
+    color: #000000;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly; 
+    background-color: #fff;
+    border: 0px;
+    margin: 0px;
+}
+
+.main{
+    width: 40vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.25);
+    
+}
+
+.main > input, .main > button {
+    width: 40%;
+    padding: 16px;
+    border-radius: 50px;
+    font-size: medium;
+    border: none;
+    text-align: center;
+    margin: 10px;
+    min-width: 500px;
+}
+
+
+.main > * {
+    text-align: center;
+    width: 100%;
+}
+
+button {
+    font-weight: 600;
+    font-size: large;
+    min-width: 100px !important;
+    width: fit-content !important;
+    padding: 16px 32px !important;
+    
+}
+
+button:hover{
+    background:linear-gradient(180deg, rgba(255, 0, 0, 0.75) 0%, rgba(241, 15, 15, 0) 100%), #14C8AF;
+}
+
+.signup > button
+{
+    width: 30vw;
+    padding: 16px;
+    border-radius: 50px;
+    font-size: medium;
+    border: 10px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.forgotpass a{
+    float:left;
+    margin-left: 60px;   
+}
